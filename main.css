@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: CNN, Helvetica Neue, Helvetica, Arial, Utkal, sans-serif;
+
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+
+
+}
+
+/* NAV BAR CSS  */
+
+
+nav {
+    display: flex;
+
+    background-color: black;
+    color: white;
+
+}
+
+.logo {
+
+    display: flex;
+    /* border: 1px solid black; */
+    width: 7%;
+    height: 7%;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10%;
+}
+
+.logo img {
+
+    width: 50px;
+    height: 50px;
+}
+
+.Nav-Group {
+    display: flex;
+
+    width: 60%;
+    justify-content: left;
+    gap: 25px;
+    ;
+    align-items: center;
+
+
+}
+
+.Nav-links {
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: medium;
+    cursor: pointer;
+
+}
+
+.Nav-icon {
+    display: flex;
+    width: 33%;
+    align-items: center;
+    justify-content: end;
+    gap: 25px;
+}
+
+.icon-links {
+
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.btn-login {
+
+    background: none;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+/*  inside Container Trending list CSS */
+.trending {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    padding: 15px;
+}
+
+
+
+.Trend-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.Trend-li {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+
+    color: black;
+    font-size: 17px;
+    padding: 0px 8px;
+    border-right: 2px solid grey;
+    gap: 10px;
+}
+
+.Trend-li:hover {
+    cursor: pointer;
+    font-weight: 700;
+    background-color: white;
+    color: red;
+}
+
+.Trend-li.bar {
+
+
+    border-right: 2px solid rgb(234, 231, 231);
+}
+
+.trend {
+    color: red;
+    font-weight: 900;
+}
+
+/* Section's playcards with coloumns  */
+
+.section1 {
+    border: 1px solid black;
+    display: flex;
+    /* justify-content: space-between; */
+
+
+
+}
+
+/* Column 1  */
+
+.column1 {
+    /* border: 1px solid black; */
+    width: 40%;
+    padding: 10px;
+}
+
+.col1-h1 {
+
+    padding: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.col1-h1:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.col1-img {
+
+    width: 100%;
+    height: auto;
+    border: 0%;
+
+
+}
+
+.col1-h4 {
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+
+.col1-h4:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.col1-ul {
+    /* 
+    border: 1px solid black; */
+    list-style-type: none;
+    text-emphasis: none;
+
+
+}
+
+.col1-li {
+
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: left;
+    font-size: 19px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.li-1:hover {
+    color: red;
+    cursor: pointer;
+}
+
+
+/* col2 */
+.column2 {
+
+    width: 30%;
+    padding: 10px;
+}
+
+.banner {
+
+    padding-top: 8px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    background-color: #f2f2f2;
+    font-weight:600;
+
+}
+
+.banner:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.col2-Top img {
+
+    width: 100%;
+    height: auto;
+
+}
+h3.col2-h1{
+
+ margin-top: 2px;
+ margin-bottom: 2px;
+ text-align:left;
+ font-size: 18px;
+}
+
+.col2-h1 h3{
+
+    padding: 5px;
+    padding-bottom: 15px;
+    text-align:left;
+    font-size: 20px;
+}
+
+.col2-h1:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.col2-ul{
+    list-style-type: none;
+    text-emphasis: none;
+}
+.col2-li {
+
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: left;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.col2-img2 {
+
+    width: 100%;
+    height: auto;
+
+}
+
+/* column3  */
+
+.relative-box{
+
+ 
+  position:absolute;
+    bottom:0;
+    left: 0;
+    background-color: #e30010;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 8px 4px;
+}
+.col3-Top {
+
+    position: relative;
+}
+
+.col3-Top img {
+
+    width: 100%;
+    height: auto;
+
+
+}
+
